@@ -31,12 +31,6 @@ Showcasing professional web design, front-end development, and WordPress customi
 **Sharifa (Shori)** — a creative front-end web designer and developer focused on crafting stunning, user-centric websites with precision and purpose.
 
 ---
+ _Crafted with ❤️ by Shori — .Web Artisan_
 
-### 📬 Contact
-📧 **Email:** shori.webdesigner@gmail.com  
-🔗 **LinkedIn:** [linkedin.com/in/shoriwebdesigner](#)
-
----
-
-> _Crafted with ❤️ by Shori — .Web Artisan_
 
