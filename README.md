@@ -23,7 +23,7 @@ Showcasing professional web design, front-end development, and WordPress customi
 ---
 
 ### 🌍 Live Preview
-🔗 [View Live Portfolio](https://shori-portfolio.github.io)
+🔗 [View Live Portfolio](https://shoriwebart.github.io/Shori-Portfolio/)
 
 ---
 
@@ -39,3 +39,4 @@ Showcasing professional web design, front-end development, and WordPress customi
 ---
 
 > _Crafted with ❤️ by Shori — .Web Artisan_
+
