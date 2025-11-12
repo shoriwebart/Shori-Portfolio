@@ -1,0 +1,88 @@
+
+
+/* Tablet (≤992px) */
+@media (max-width: 992px) {
+  .hero {
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  .hero img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .navbar .btn-outline-light {
+    margin-top: 10px;
+  }
+  #about img {
+    width: 100%;
+  }
+  
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .hero {
+    padding: 5rem 1.5rem;
+  }
+  .hero h1 {
+    font-size: 1.9rem;
+    line-height: 1.4;
+  }
+  .hero p.lead {
+    font-size: 1rem;
+  }
+  .hero img {
+    width: 100%;
+    
+  }
+  #about {
+    text-align: center;
+  }
+  #about img {
+    margin-bottom: 1.5rem;
+  }
+  #about ul{
+    text-align: left;
+  }
+   #about .col-md-12 {
+    text-align: left !important;
+  }
+
+  #about .download-btn {
+    margin-left: 0;
+  }
+}
+
+/* Small Mobile (≤576px) */
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .hero {
+    padding: 5rem 1rem;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  #about ul{
+    text-align: left;
+  }
+   #about .col-md-7 {
+    text-align: left !important;
+  }
+
+  #about .download-btn {
+    margin-left: 0;
+  }
+  footer {
+    text-align: center;
+  }
+}
+

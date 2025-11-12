@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shori — Front-end Developer & Web Designer</title>
+
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- BS Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- favIcon -->
+  <link rel="icon" type="image/x-icon" href="image/favicon.png">
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container">
+      <!-- Logo / Brand -->
+      <a class="navbar-brand fw-bold" href="#home">Shori<span class="logo-title text-muted"> • Web Artisan</span></a>
+
+      <!-- Toggle (mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a href="#portfolio" class="btn btn-outline-light px-3">Discover More</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 animate__animated animate__fadeInLeft wow">
+          <p class="text-muted mb-2">Front-End Developer & Web Designer</p>
+          <h1>Shori — crafting clean, responsive websites with <span style="color:var(--accent)">HTML5</span>, <span
+              style="color:var(--accent)">CSS3</span> & <span style="color:var(--accent)">Bootstrap</span></h1>
+          <p class="lead">I build modern, accessible and high-performance websites. I also convert Figma designs into
+            pixel-perfect Bootstrap code and customize WordPress themes.</p>
+
+          <div class="d-flex gap-2 btn-group mt-4">
+            <a href="#contact" class="btn btn-primary btn-lg my-btn">Hire Me</a>
+            <a href="#portfolio" class="btn btn-outline-light btn-lg work-btn">See My Work</a>
+          </div>
+
+          <div class="mt-4">
+            <span class="badge-tech me-2">HTML5</span>
+            <span class="badge-tech me-2">CSS3</span>
+            <span class="badge-tech me-2">Bootstrap 5</span>
+            <span class="badge-tech me-2">JavaScript</span>
+            <span class="badge-tech">Figma → Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center mt-4 mt-lg-0 animate__animated animate__fadeInRight">
+          <img src="image/hiro-img.png" alt="hero" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero section end -->
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-12 col-lg-5 animate__animated animate__fadeInLeft wow">
+          <img src="image/about-img.jpg" alt="about" class="img-fluid rounded-3">
+        </div>
+        <div class="col-md-12 col-lg-7 animate__animated animate__fadeInRight wow">
+          <h3>About Me</h3>
+          <p class="text-muted"> Hi! I'm <strong>Sharifa</strong> — a front-end web designer passionate about building
+            modern, responsive, and user-focused websites.
+            I specialize in creating business, agency, and portfolio sites using HTML, CSS, Bootstrap, and WordPress.
+          </p>
+          <ul class="list-unstyled text-muted">
+            <li>✅ Focused on Responsive design & clean coding</li>
+            <li>✅ Expert in Figma to Bootstrap conversion</li>
+            <li>✅ WordPress theme customization & integrations</li>
+            <li>✅ SEO-friendly and optimized websites</li>
+          </ul>
+
+          <div class="d-flex flex-wrap gap-5 mb-4 mt-4">
+            <div class="experience">
+              <h6 class="text-uppercase text-secondary small mb-1">Experience</h6>
+              <p class="fw-semibold mb-0"><span class="counter">2</span>+ Years</p>
+            </div>
+            <div class="experience">
+              <h6 class="text-uppercase text-secondary small mb-1">Projects</h6>
+              <p class="fw-semibold mb-0"><span class="counter">20</span>+ Completed</p>
+            </div>
+          </div>
+
+
+
+
+          <a href="#portfolio" class="btn btn-outline-light mt-3 download-btn"> <i
+              class="fa-solid fa-briefcase me-2"></i> View My Work
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- SERVICES -->
+  <section id="services" class="py-5 bg-dark">
+    <div class="container">
+      <div class="row mb-4 animate__animated animate__fadeInUp wow">
+        <div class="col-md-8">
+          <h4 class="text-light">My Services</h4>
+          <p class="text-muted">
+            I offer professional web design and front-end solutions that blend creativity, functionality, and modern
+            code — delivering perfect results every time.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <!--Service 1 -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInLeft wow">
+          <div class="p-4 service-card rounded-3 h-100">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-solid fa-vector-square fa-2x text-purple"></i>
+              <div>
+                <h5 class="text-light">Web Design (Figma → HTML)</h5>
+                <p class="text-muted small mb-0">
+                  Transforming Figma or XD designs into responsive, pixel-perfect websites using HTML5, CSS3, and
+                  Bootstrap — fully optimized for all devices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInLeft wow">
+          <div class="p-4 service-card rounded-3 h-100">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-solid fa-code fa-2x text-purple"></i>
+              <div>
+                <h5 class="text-light">Front-End Development</h5>
+                <p class="text-muted small mb-0">
+                  Clean, semantic code with modern CSS effects, Bootstrap grid system, and vanilla JavaScript for
+                  smooth, interactive UI experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInLeft wow">
+          <div class="p-4 service-card rounded-3 h-100">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-brands fa-wordpress fa-2x text-purple"></i>
+              <div>
+                <h5 class="text-light">WordPress Customization</h5>
+                <p class="text-muted small mb-0">
+                  Building and customizing WordPress themes with Elementor, Gutenberg, and ACF. Turning static HTML into
+                  dynamic, easy-to-manage WP sites.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInRight wow">
+          <div class="p-4 service-card rounded-3 h-100">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-solid fa-gauge-high fa-2x text-purple"></i>
+              <div>
+                <h5 class="text-light">Website Optimization</h5>
+                <p class="text-muted small mb-0">
+                  Improve website speed, SEO performance, and overall user experience with optimized images, clean code,
+                  and caching techniques.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInRight wow">
+          <div class="p-4 service-card rounded-3 h-100">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-solid fa-layer-group fa-2x text-purple"></i>
+              <div>
+                <h5 class="text-light">Landing Page Design</h5>
+                <p class="text-muted small mb-0">
+                  Eye-catching and conversion-focused landing pages designed in Figma and developed into responsive HTML
+                  or WordPress layouts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInRight wow">
+          <div class="p-4 service-card rounded-3 h-100">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-solid fa-layer-group fa-2x text-purple"></i>
+              <div>
+                <h5 class="text-light">Theme & Template Design</h5>
+                <p class="text-muted small mb-0">
+                  Custom agency and portfolio templates crafted for ThemeForest and client use — responsive, stylish,
+                  and optimized for conversions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- service section end -->
+
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row mb-4 text-center animate__animated animate__fadeInUp wow">
+        <div class="col-12">
+          <h4>My Projects</h4>
+          <p class="text-muted">Filter by category to explore my work across HTML, Bootstrap & WordPress.</p>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="text-center mb-5 animate__animated animate__fadeInUp wow">
+        <div class="d-inline-flex gap-2 flex-wrap justify-content-center">
+          <button class="btn filter-btn active" data-filter="all">All</button>
+          <button class="btn filter-btn" data-filter="html">HTML</button>
+          <button class="btn filter-btn" data-filter="bootstrap">Bootstrap</button>
+          <button class="btn filter-btn" data-filter="wordpress">WordPress</button>
+        </div>
+      </div>
+
+      <!-- Project Cards -->
+      <div class="row g-5 projects animate__animated animate__fadeInUp wow">
+        <!-- html project-1 -->
+        <div class="col-sm-6 col-lg-4 project-card html">
+          <div class="card portfolio-card rounded-3">
+            <div class="img-wrap">
+              <img src="image/card-img1.png" alt="HTML Project">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h5>Restora – Restaurant Website Template</h5>
+                  <p>Clean, animated, and mobile-friendly landing page for restaurants and cafés.</p>
+                  <a href="https://shoriwebart.github.io/Restuarent-website-/" target="_blank">Live Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- html project-2 -->
+        <div class="col-sm-6 col-lg-4 project-card html">
+          <div class="card portfolio-card rounded-3">
+            <div class="img-wrap">
+              <img src="image/card-img4.jpg" alt="HTML Project">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h5>Boldo – Creative Agency Template</h5>
+                  <p>Modern responsive agency site built with Bootstrap, featuring elegant layouts & smooth sliders.</p>
+                  <a href="https://shoriwebart.github.io/Boldo-agency-template/" target="_blank">Live Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bootstrap project-1 -->
+        <div class="col-sm-6 col-lg-4 project-card bootstrap">
+          <div class="card portfolio-card rounded-3">
+            <div class="img-wrap">
+              <img src="image/card-img3.jpg" alt="Bootstrap Project">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h5>OnePage – Modern Business Template</h5>
+                  <p>Professional one-page business site built with Bootstrap, clean design & responsive layout.</p>
+                  <a href="https://shoriwebart.github.io/Onepage-portfolio-sample/" target="_blank">Live Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bootstrap project-2 -->
+        <div class="col-sm-6 col-lg-4 project-card bootstrap">
+          <div class="card portfolio-card rounded-3">
+            <div class="img-wrap">
+              <img src="image/card-img5.jpg" alt="Bootstrap Project">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h5>FoodFun – Restaurant Website</h5>
+                  <p>Responsive restaurant website built with Bootstrap, modern layout & smooth animations.</p>
+                  <a href="https://shoriwebart.github.io/Foodfun-Bootstrap-Restaurant-Website/" target="_blank">Live  Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- wordpress project-1 -->
+        <div class="col-sm-6 col-lg-4 project-card wordpress">
+          <div class="card portfolio-card rounded-3">
+            <div class="img-wrap">
+              <img src="image/card-img2.jpg" alt="WordPress Project">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h5>Digital Classroom – Education Website</h5>
+                  <p>Modern responsive e-learning platform with smooth UI & clean WordPress integration.</p>
+                  <a href="https://shoriwebart.github.io/Digital-Classroom/" target="_blank">Live Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- wordpress project-2 -->
+        <div class="col-sm-6 col-lg-4 project-card wordpress">
+          <div class="card portfolio-card rounded-3">
+            <div class="img-wrap">
+              <img src="image/card-img2.jpg" alt="WordPress Project">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <h5>Digital Classroom – Education Website</h5>
+                  <p>Modern responsive e-learning platform with smooth UI & clean WordPress integration.</p>
+                  <a href="https://shoriwebart.github.io/Digital-Classroom/" target="_blank">Live Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section end -->
+
+  <!-- contact -->
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row mb-4 text-center animate__animated animate__fadeInUp wow">
+        <div class="col-12">
+          <h4>Contact Me</h4>
+          <p class="text-muted">Let’s work together! Send me a message or connect on social platforms.</p>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-center">
+        <!-- Left: Contact Info -->
+        <div class="col-md-5 animate__animated animate__fadeInLeft wow">
+          <h5 class="mb-3">Get in Touch</h5>
+          <p class="text-muted small mb-4">I’m available for freelance projects — whether it’s front-end design,
+            WordPress, or full website builds.</p>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><i class="fa-solid fa-envelope text-purple me-3"></i>sharifaakter156@gmail.com</li>
+            <li class="mb-2"><i class="fa-solid fa-phone text-purple me-3"></i> +880 1XXX-XXXXXX</li>
+            <li class="mb-2"><i class="fa-solid fa-location-dot text-purple me-3"></i> Dhaka, Bangladesh</li>
+          </ul>
+          <div class="mt-3 d-flex gap-3">
+            <a href="https://www.facebook.com/profile.php?id=61579132761437" class="text-purple"><i
+                class="fa-brands fa-facebook fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/sharifa-akter-901327391/" class="text-purple"><i
+                class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/shoriwebart" class="text-purple"><i class="fa-brands fa-github fa-lg"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="col-md-7 animate__animated animate__fadeInRight WOW">
+          <form action="https://formspree.io/f/mzzpzqdy" method="POST">
+            <div class="row g-3 mt-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control bg-transparent" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control bg-transparent" placeholder="Your Email" required>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control bg-transparent" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary contact-btn px-4 ">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+
+
+  <!-- footeer -->
+  <section class="footer mt-5 pt-5 mb-5 animate__animated animate__fadeInUp wow">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 footer-box">
+          <a class="navbar-brand fw-bold" href="#">Shori<span class="logo-title text-muted"> • Web Artisan</span></a>
+          <p>Dhaka <br> Bangladesh</p>
+          <p>Phone:+880 1XXX-XXXXXX <br> Email:sharifaakter156@gmail.com</p>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-2 items">
+          <h4>Useful Links</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-3 items">
+          <h4>Our Services</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#services">Web Design</a>
+            </li>
+            <li>
+              <a href="#services">Landing Page Design</a>
+            </li>
+            <li>
+              <a href="#services">Wordpress Customization</a>
+            </li>
+            <li>
+              <a href="#services">Website Optimization</a>
+            </li>
+            <li>
+              <a href="#services">Front-End Development</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="col-12 col-md-6 col-lg-4 items">
+          <h4>Let's Build Something Amazing!</h4>
+          <p> I design and develop modern, responsive websites using HTML, CSS, Bootstrap & WordPress.</p>
+          <form action="" method="post">
+            <input type="email" name="email" class="mail-box">
+            <input type="submit" value="Subscribe" class="sub-box">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section end -->
+
+  <!-- back to top button -->
+  <button type="button" class="btn btn-primary" id="backToTop">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- jquary -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- navbar js -->
+  <script>
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  </script>
+
+  <script>
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+  <!-- counter js -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script>
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  </script>
+
+  <!-- wow js -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+
+  <!-- contact section js -->
+  <script>
+    const form = document.getElementById('contactForm');
+    form?.addEventListener('submit', function (e) {
+      setTimeout(() => {
+        alert('Thank you! Your message was sent.');
+        form.reset();
+      }, 300);
+    });
+  </script>
+
+
+  <!-- portfolio section js -->
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const projects = document.querySelectorAll('.project-card');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        projects.forEach(p => {
+          p.style.display = (filter === 'all' || p.classList.contains(filter)) ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
